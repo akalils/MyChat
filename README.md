@@ -25,7 +25,7 @@
 系统配备了专门的后台管理界面，靓号用户可以通过该界面进行人员管控等维护操作，确保系统的正常运行和用户管理的高效性。
 
 #### 安全验证机制
-1. **SMS 短信验证**：在登录和注册过程中，采用 SMS 短信验证方式，增加账号的安全性，确保只有本人能够使用该账号。
+1. **SMS 短信验证**：在登录和注册过程中，采用 SMS 短信验证方式，增加账号的安全性，确保只有本人能够使用该账号。**但是！目前短信验证还在测试阶段，只能在阿里云短信验证添加测试手机号才能用短信验证。**
 2. **SSL 加密保障**：系统支持 SSL 加密技术，对用户信息进行加密处理，有效防止信息泄露，保障用户的隐私安全。
 
 #### 数据持久化与性能优化
@@ -188,3 +188,23 @@ web/chat-server/
 └── vue.config.js
 ```
 
+## 项目演示
+### 登录注册
+
+https://github.com/user-attachments/assets/8c2ef83d-4d3f-4dc3-8676-788ef6a14137
+
+### 添加好友
+
+https://github.com/user-attachments/assets/a46999ad-cb5c-4ec8-960c-c66b336aea07
+
+### 发送接收消息
+
+https://github.com/user-attachments/assets/52d8ec2e-2894-4597-a1a8-65e5cae86441
+
+### 其他操作
+
+https://github.com/user-attachments/assets/ed5f9d93-2544-43bf-b9d6-5e7756161d92
+
+### 音视频通话
+
+https://github.com/user-attachments/assets/6d037f8d-7529-439f-a373-7fdcf4dbd67b
